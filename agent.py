@@ -160,7 +160,7 @@ async def run_agent_workflow(user_request: str):
 # --- 5. Main Entry Point (CLI) ---
 
 if __name__ == "__main__":
-    # Now that we called load_dotenv() at the top, this check should PASS.
+    
     if "GOOGLE_API_KEY" not in os.environ:
         print("\n❌ Error: GOOGLE_API_KEY still not found.")
         print("👉 Double check that your file is named exactly '.env' (no .txt extension!)")
